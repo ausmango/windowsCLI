@@ -45,8 +45,14 @@ int main() {
 
 	qsort(list, listCount, sizeof(ProcessInfo), comp);
 
-	for (int i = 0; i < listCount; i++) {
-		printf("%-30s %llu MB\n", list[i].name, (unsigned long long)list[i].ramMB);
+	int j = 0;
+	while (j < 15) {
+		listCount = 0;
+		for (int i = 0; i < listCount; i++) {
+			printf("%-30s %llu MB\n", list[i].name, (unsigned long long)list[i].ramMB);
+		}
+		j++;
+		Sleep(5000);
 	}
 	return 0;
 }
