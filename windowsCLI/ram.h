@@ -1,5 +1,5 @@
-#ifndef function_h
-#define function_h
+#ifndef ram_h
+#define ram_h
 
 #include <windows.h>
 #include <Psapi.h>

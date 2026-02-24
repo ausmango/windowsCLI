@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "function.h"
+#include "ram.h"
 #include "battery.h"
 #include <curses.h>
 

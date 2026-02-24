@@ -18,19 +18,22 @@
     <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="function.c">
+    <ClCompile Include="ram.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="battery.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="display.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="function.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="battery.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ram.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

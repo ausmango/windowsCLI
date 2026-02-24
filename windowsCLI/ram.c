@@ -2,7 +2,7 @@
 #include <string.h>
 #include <windows.h>
 #include <Psapi.h>
-#include "function.h"
+#include "ram.h"
 
 ProcessInfo list[1024];
 
