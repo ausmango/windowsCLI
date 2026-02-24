@@ -9,6 +9,6 @@ typedef struct {
 	SIZE_T ramMB;
 } ProcessInfo;
 
-void gatherRam();
+ProcessInfo* gatherRam(int* outCount);
 
 #endif
