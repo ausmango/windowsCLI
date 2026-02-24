@@ -3,10 +3,10 @@
 
 #include <windows.h>
 
-int batteryPercent();
+int getBatteryPercent();
 
-int acLine();
+int getACLine();
 
-int batteryTimeRemaining();
+int getBatteryTimeRemaining();
 
 #endif

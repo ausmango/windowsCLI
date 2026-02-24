@@ -1,14 +1,14 @@
 #include <stdio.h>
-#include "ram.h"
-#include "battery.h"
 #include <curses.h>
+#include "display.h"
 
 int main() {
 
 	initscr();
-
-	printw(acLine());
-
+	batteryPercent();
+	refresh();
+	getch();
+	endwin();
 	
 	return 0;
 }

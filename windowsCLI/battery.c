@@ -4,19 +4,19 @@
 
 SYSTEM_POWER_STATUS status;
 
-int batteryPercent() {
+int getBatteryPercent() {
 	GetSystemPowerStatus(&status);
 	
 	return status.BatteryLifePercent;
 }
 
-int acLine() {
+int getACLine() {
 	GetSystemPowerStatus(&status);
 
 	return status.ACLineStatus;
 }
 
-int batteryTimeRemaining() {
+int getBatteryTimeRemaining() {
 	GetSystemPowerStatus(&status);
 
 	return status.BatteryLifeTime;

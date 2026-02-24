@@ -1,20 +1,24 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <curses.h>
 #include "battery.h"
 #include "ram.h"
 
-void gatherRam() {
+void displayRam() {
 
 }
 
-void getBatteryPercent() {
+void batteryPercent() {
+	int percent = getBatteryPercent();
+	mvprintw(0, 0, "Battery: %d%", percent);
+
 
 }
 
-void getACLine() {
+void acLine() {
 
 }
 
-void getBatteryTime() {
+void batteryTime() {
 
 }
